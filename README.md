@@ -1,4 +1,4 @@
-<img src=" 	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" width="100%" />
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" width="100%" />
 
 ### Angular Learning Spa 
 
