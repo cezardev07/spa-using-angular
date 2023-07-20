@@ -1,0 +1,26 @@
+.about-wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-wrapper .text ol{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+button{
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.link{
+  text-align: center;
+  padding: 20px 0;
+}
+.link a{
+  color: royalblue;
+}
+.link a:hover{
+  color: rebeccapurple;
+}

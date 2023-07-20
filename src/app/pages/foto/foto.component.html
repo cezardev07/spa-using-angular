@@ -1,0 +1,14 @@
+<div class="img-select-wrapper">
+  <div class="title">
+    <h2>Photo select!</h2>
+    <button [routerLink]="['']">voltar</button>
+  </div>
+  <div class="img-wrapper">
+    <div class="img">
+      <img src="{{ img }}"/>
+    </div>
+    <div class="description">
+      <button (click)="download()">fazer download</button>
+    </div>
+  </div>
+</div>

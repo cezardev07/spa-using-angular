@@ -1,0 +1,127 @@
+.heading{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.heading h1{
+  font-weight: 600;
+  font-size: 49px;
+  line-height: 65px;
+  letter-spacing: -.02em;
+  color: #2c343e;
+  fill: #2c343e;
+}
+.grid{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.img-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s ease;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.img-wrapper:hover img{
+  filter: blur(7px);
+}
+.img-wrapper:hover .icone{
+  opacity: 1;
+}
+.img-wrapper:hover .perfil{
+  opacity: 1;
+}
+.img-wrapper:hover .open-img{
+  opacity: 1;
+}
+img{
+  width: 100%;
+  position: relative;
+  transition: all .3s ease;
+}
+.icone{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #ffffff;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  opacity: 0;
+  transition: all .3s ease;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icone:hover{
+  background: #ddd;
+}
+.icone span{
+  font-size: 23px;
+}
+.open-img{
+  position: absolute;
+  opacity: 0;
+}
+.open-img button{
+  transition: all .3s ease;
+  padding: 10px 20px;
+  font-weight: 600;
+  background: transparent;
+  font-size: 18px;
+  color: #ffffff;
+  background: #07a081;
+  border: solid 1px #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.open-img button:hover{
+  color: #000;
+  border-color: #ffc864;
+  background-color: #ffc864;
+}
+.perfil{
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  left: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+}
+.perfil .img-perfil{
+  width: 40px;
+  height: 40px;
+  background-image: linear-gradient(to bottom, #ffffff, #07a081, #ffff);
+  border-radius: 50%;
+}
+.perfil p{
+  font-weight: 600;
+  background: #11111127;
+  padding: 5px 10px;
+}
+@media (max-width: 907px){
+  .grid{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .grid, .column{
+    gap: 10px;
+  }
+}

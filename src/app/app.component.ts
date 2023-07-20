@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app-angular';
+
+  state: boolean = true
+  classToggle: string = ""
+
+  toggle() : void{
+    this.state = !this.state
+    if(this.state === true)  this.classToggle = ""
+    if(this.state === false) this.classToggle = "close"
+  }
 }
