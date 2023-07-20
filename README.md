@@ -1,27 +1,32 @@
-# MyAppAngular
+<img src=" 	https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" width="100%" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+### Angular Learning Spa 
 
-## Development server
+Um Projeto Iniciante para Explorar SPAs e Rotas no Framework Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### Descrição:
 
-## Code scaffolding
+O projeto é uma iniciativa focada no estudo de Single Page Applications (SPAs) e rotas no renomado framework Angular. Desenvolvido com o objetivo principal de aprimorar os conhecimentos em desenvolvimento com Angular, este projeto é simples, porém abrangente, aborda vários conceitos interessantes sobre o framework.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+imagem do projeto
+<img src="https://github.com/cezardev07/spa-using-angular/blob/main/src/assets/img-project-angular.png?raw=true" width="100%"/>
 
-## Build
+Embora seja um projeto iniciante, não espere encontrar soluções extremamente avançadas. Ele foi projetado  como foco em apenas estudar o angular, abordando os fundamentos essenciais do desenvolvimento com o framework. OBS -> esse e o meu primeiro projeto que crio com angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
 
-## Running unit tests
+### get started project angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    # clone o repositorio
+    git clone < repositorio >
 
-## Running end-to-end tests
+    # open project
+    cd ./ < name project >
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    # install all dependencias
+    npm install
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    # started application angular
+    ng serve
+    or
+    ng serve -o || This flag ( -o ) Open your Browser
