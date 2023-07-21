@@ -125,3 +125,9 @@ img{
     gap: 10px;
   }
 }
+
+@media (max-width: 762px){
+  .icone,.perfil{
+    display: none;
+  }
+}
