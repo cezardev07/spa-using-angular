@@ -44,6 +44,7 @@ header nav ul button, header nav ul a{
   background: transparent;
   font-size: 18px;
   border: solid 1px #ddd;
+  color: #000;
   cursor: pointer;
   border-radius: 5px;
   text-decoration: none;
